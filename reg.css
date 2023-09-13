@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+ }
+ 
+ body {
+     background: url(image.jpg) no-repeat;
+     background-size: cover;
+ 
+ }
+ 
+ .reg {
+     padding: 15px 10px    ;
+     width: 350px; 
+     top: 20%;
+     left: 40%;
+     transition: translate(-40, -40);
+     position: absolute;
+     
+ }
+ .reg h1 {
+     font-style: 40px;
+     text-align: center;
+     text-transform: uppercase;
+     margin: 40px 0;
+ }    
+ 
+ .reg p {
+     font-size: 20px;
+     margin: 15px 0;
+ 
+ }
+ 
+ .reg input {
+     font-size: 16px;
+     width: 100%;
+     padding: 15px 10px;
+     border: 0;
+     outline: invert;
+     border-radius: 5px;
+ }
+ 
+ .reg button {
+     font-size: 18px;
+     font-weight: bold;
+     margin: 20px 0;
+     padding: 10px 20px;
+     width: 100px;
+     border-radius: 5px;
+     border: 0;
+ }
